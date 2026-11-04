@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacidad de CLIPLAB</title>
+<meta name="description" content="Política de privacidad de CLIPLAB.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Inicio</a><a href="privacy.html">Política de privacidad</a><a href="terms.html">Condiciones del servicio</a></nav>
+<h1>Política de privacidad de CLIPLAB</h1>
+<p class="muted">Última actualización: 4 de noviembre de 2026</p>
+
+<p>CLIPLAB es una aplicación personal desarrollada y usada por Alejandro López (en adelante, «el responsable») para gestionar su propio canal de YouTube. Esta política explica qué datos trata la aplicación, para qué y cómo se protegen.</p>
+
+<h2>1. Responsable y contacto</h2>
+<p>Alejandro López · <a href="mailto:jandrialex69@gmail.com">jandrialex69@gmail.com</a></p>
+
+<h2>2. Datos de Google a los que accede</h2>
+<p>Cuando el usuario conecta su cuenta de Google mediante OAuth 2.0, CLIPLAB puede acceder, según los permisos que el usuario conceda, a:</p>
+<ul>
+<li><strong>YouTube Data API</strong> (youtube.upload, youtube.readonly, youtube.force-ssl): subir vídeos al canal del usuario, leer la lista de sus vídeos y sus datos públicos, y gestionar los metadatos y subtítulos de esos vídeos.</li>
+<li><strong>YouTube Analytics API</strong> (yt-analytics.readonly, yt-analytics-monetary.readonly): leer estadísticas del canal (visualizaciones, retención, ingresos estimados) en solo lectura.</li>
+<li><strong>AdSense Management API</strong> (adsense.readonly), solo si el usuario lo activa: leer en solo lectura los ingresos de su cuenta.</li>
+</ul>
+<p>CLIPLAB no accede a correos, contactos, archivos de Drive ni a ningún otro dato de la cuenta de Google.</p>
+
+<h2>3. Para qué se usan</h2>
+<ul>
+<li>Publicar en el canal del usuario los clips que él mismo ha creado y aprobado.</li>
+<li>Mostrarle al usuario el rendimiento de sus clips para decidir qué publicar.</li>
+</ul>
+<p>Los datos no se usan para publicidad, no se venden, no se transfieren a terceros y no se usan para entrenar modelos de inteligencia artificial generalistas.</p>
+
+<h2>4. Dónde se guardan</h2>
+<p>Los tokens de acceso de Google y las estadísticas se guardan solo en el ordenador del usuario (archivos locales y una base de datos SQLite), no en servidores de CLIPLAB. Los tokens no se publican ni se comparten. Las transcripciones de audio pueden enviarse a un proveedor de transcripción elegido por el usuario (por ejemplo, Groq) solo con el audio de los vídeos del propio usuario; nunca se envían datos de la cuenta de Google.</p>
+
+<h2>5. Conservación y eliminación</h2>
+<p>Los datos se conservan mientras el usuario use la aplicación. El usuario puede borrarlos en cualquier momento eliminando los archivos locales de CLIPLAB y revocar el acceso desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. También puede pedir ayuda escribiendo a la dirección de contacto.</p>
+
+<h2>6. Cumplimiento de la política de datos de Google</h2>
+<p>El uso que hace CLIPLAB de la información recibida de las API de Google se ajusta a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado (<em>Limited Use</em>). CLIPLAB usa además los servicios de API de YouTube; al usarla, el usuario acepta las <a href="https://www.youtube.com/t/terms">Condiciones del servicio de YouTube</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
+
+<h2>7. Seguridad</h2>
+<p>Las credenciales se guardan en variables de entorno o en archivos locales excluidos de cualquier repositorio, y la aplicación solo usa las API oficiales de Google, nunca automatización del navegador con cookies.</p>
+
+<h2>8. Cambios</h2>
+<p>Si esta política cambia, se actualizará esta página y su fecha.</p>
+
+<h2>English summary</h2>
+<p>CLIPLAB is a personal tool used by its owner to upload his own videos to his own YouTube channel and read that channel's analytics. It accesses only the YouTube Data API, YouTube Analytics API and, optionally, AdSense Management API (read-only), using the scopes listed above. Google user data is stored only on the owner's computer, is never sold, shared with third parties or used for advertising, and can be revoked at any time at myaccount.google.com/permissions. CLIPLAB's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Contact: jandrialex69@gmail.com.</p>
+
+<footer><a href="index.html">Volver al inicio</a></footer>
+</main>
+</body>
+</html>
